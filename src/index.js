@@ -14,8 +14,6 @@ ReactDOM.render(
       < Route path="/cadastro/video"  component={CadastroVideo} exact/>
       < Route path="/cadastro/categoria"  component={CadastroCategoria} exact/>
       < Route  component={pagina404 }/>
-      {/* 
-      <CadastroCategoria />  */}
     </Switch> 
   </BrowserRouter>,
   document.getElementById('root')

@@ -10,8 +10,7 @@ const Main = styled.main`
     color: var(--white);
     flex:1;
     padding-top:50px;
-    margin-left:5%;
-    margin-right:5%;
+    
 `;
 
 function PageDefault ({ children }) {

@@ -8,12 +8,14 @@ import dadosIniciais from '../../data/dados_iniciais.json'
 
 function Home () {
   return (
-    <div >
+    <div style={{ background: "#141414" }} >
       <Menu/>
       <BannerMain 
-      videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-      videoDescription={"Escreva aqui a sua descrição"}
-      url={dadosIniciais.categorias[0].videos[0].url}/>
+
+        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
+        videoDescription={"Escreva aqui a sua descrição"}
+        url={dadosIniciais.categorias[0].videos[0].url}
+      />
       <Carousel
       ignoreFirstVideo
       category={dadosIniciais.categorias[0]}
